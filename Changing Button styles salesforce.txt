@@ -1,0 +1,34 @@
+Detail Page Button
+
+1. Encode the following function
+
+(function() {
+  var button = document.getElementsByName('your_button')[0];
+  button.style.background = 'url("https://addons.mozilla.org/_files/311357/preview_small.jpg")';
+}());
+
+2. Encode it and replace the following "encode string" with original encoded string 
+{!REQUIRESCRIPT("data:application/javascript;base64,encode string")}
+window.location = '/apex/ns__PageName'; //button action when clicked
+
+Related List Button 
+
+1. Add jquery to the home component 
+
+2. Encode the following function 
+
+$(document).ready(function() {
+	$("input[name='button_name']").css('color','green');
+	
+	$('#sidebarDiv').find('.sidebarModule').each(function() {
+		if ($(this).find('.brandPrimaryFgr').text() == 'Jquery'){
+			$(this).hide();
+		}
+	})
+})
+
+
+3. Encode it and replace the following "encode string" with original encoded string 
+{!REQUIRESCRIPT("data:application/javascript;base64,encode string")}
+window.location = '/apex/ns__PageName'; //button action when clicked
+
