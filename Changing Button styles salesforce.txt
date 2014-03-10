@@ -32,3 +32,6 @@ $(document).ready(function() {
 {!REQUIRESCRIPT("data:application/javascript;base64,encode string")}
 window.location = '/apex/ns__PageName'; //button action when clicked
 
+// Url
+http://rot47.net/base64encoder.html
+
